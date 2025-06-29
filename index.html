@@ -21,15 +21,29 @@
     }
 
     header img {
-      width: 150px;
+      width: 120px;
       height: auto;
       margin-bottom: 10px;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-      letter-spacing: 2px;
+    nav {
+      background-color: #2c3a3a;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffb347;
     }
 
     main {
@@ -60,10 +74,17 @@
 </head>
 <body>
   <header>
-    <img src="NoEsNormal1.png" alt="Logo No Es Normal">
+    <img src="logo.png" alt="Logo No Es Normal">
     <h1>No Es Normal</h1>
     <p>Proyecto crítico sobre lo que el mundo no quiere ver</p>
   </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="filosofia.html">Filosofía</a>
+    <a href="activismo.html">Activismo</a>
+    <a href="geopolitica.html">Geopolítica</a>
+  </nav>
 
   <main>
     <h2>Bienvenido/a</h2>
@@ -72,20 +93,16 @@
       Aquí abordamos temas que cruzan la geopolítica, la filosofía, la sociología, la antropología y el activismo.
     </p>
 
-    <h2>¿Qué encontrarás aquí?</h2>
-    <p>
-      - Artículos de análisis<br>
-      - Ensayos breves<br>
-      - Opinión y reflexión<br>
-      - Material visual y documental<br>
-      - Voces incómodas y necesarias
-    </p>
+    <h2>Lo último publicado</h2>
+    <p><a href="articulo1.html">📰 La Trampa del Progreso: crítica al mito de la civilización</a></p>
 
-    <h2>Próximamente...</h2>
-    <p>
-      Lanzaremos nuestras secciones y publicaciones editoriales. 
-      Si quieres colaborar o enviar una propuesta, pronto habilitaremos el formulario de contacto.
-    </p>
+    <h2>¿Qué encontrarás aquí?</h2>
+    <ul>
+      <li>Análisis geopolítico sin filtro</li>
+      <li>Filosofía como resistencia</li>
+      <li>Sociología y antropología crítica</li>
+      <li>Acción política y activismo</li>
+    </ul>
   </main>
 
   <footer>
