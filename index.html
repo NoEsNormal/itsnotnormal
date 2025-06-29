@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>No Es Normal</title>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
   <style>
@@ -71,6 +72,30 @@
       margin-top: 50px;
     }
   </style>
+  @media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  main {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 </head>
 <body>
   <header>
